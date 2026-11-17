@@ -1,0 +1,46 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domicilios.Core", "src\Domicilios.Core\Domicilios.Core.csproj", "{964FD68B-7EB3-52D2-85D5-F29E52D586F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domicilios.Data", "src\Domicilios.Data\Domicilios.Data.csproj", "{59553D3B-1408-5805-88EC-1AC854FCDF80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domicilios.Web", "src\Domicilios.Web\Domicilios.Web.csproj", "{2EFC737E-BE01-59B5-86B0-128A76875463}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domicilios.Desktop", "src\Domicilios.Desktop\Domicilios.Desktop.csproj", "{2482564E-870D-5A4D-9C2B-0FF63E247F84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domicilios.Tests", "tests\Domicilios.Tests\Domicilios.Tests.csproj", "{EE36BB56-1C41-508F-8320-D9B2C9526990}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{964FD68B-7EB3-52D2-85D5-F29E52D586F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{964FD68B-7EB3-52D2-85D5-F29E52D586F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{964FD68B-7EB3-52D2-85D5-F29E52D586F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{964FD68B-7EB3-52D2-85D5-F29E52D586F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59553D3B-1408-5805-88EC-1AC854FCDF80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59553D3B-1408-5805-88EC-1AC854FCDF80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59553D3B-1408-5805-88EC-1AC854FCDF80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59553D3B-1408-5805-88EC-1AC854FCDF80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EFC737E-BE01-59B5-86B0-128A76875463}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EFC737E-BE01-59B5-86B0-128A76875463}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EFC737E-BE01-59B5-86B0-128A76875463}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EFC737E-BE01-59B5-86B0-128A76875463}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2482564E-870D-5A4D-9C2B-0FF63E247F84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2482564E-870D-5A4D-9C2B-0FF63E247F84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2482564E-870D-5A4D-9C2B-0FF63E247F84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2482564E-870D-5A4D-9C2B-0FF63E247F84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE36BB56-1C41-508F-8320-D9B2C9526990}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE36BB56-1C41-508F-8320-D9B2C9526990}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE36BB56-1C41-508F-8320-D9B2C9526990}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE36BB56-1C41-508F-8320-D9B2C9526990}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
